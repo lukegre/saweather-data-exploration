@@ -10,7 +10,6 @@ wheels/
 .venv
 data/
 outputs/figures/**/*.png
-*.html
 settings.json
 .DS_Store
 .python-version
