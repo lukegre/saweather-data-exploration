@@ -16,9 +16,13 @@ dependencies = [
     "mapclassify>=2.8.1",
     "matplotlib>=3.10.0",
     "nbformat>=5.10.4",
+    "odc-stac>=0.3.11",
     "pandas>=2.2.3",
+    "planetary-computer>=1.0.0",
     "plotly>=6.0.0",
     "pyarrow>=19.0.1",
+    "rich>=13.9.4",
+    "stackstac>=0.5.1",
     "xarray>=2025.1.2",
     "zarr>=3.0.4",
 ]

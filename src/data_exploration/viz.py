@@ -6,8 +6,6 @@ _LEAFLET_DEFAULTS = dict()
 GOOGLE_TERRAIN = dict(tiles='http://mt0.google.com/vt/lyrs=p&hl=en&x={x}&y={y}&z={z}', attr='Google', **_LEAFLET_DEFAULTS)
 GOOGLE_SATELLITE = dict(tiles='http://mt0.google.com/vt/lyrs=s&hl=en&x={x}&y={y}&z={z}', attr='Google', **_LEAFLET_DEFAULTS)
 
-FALSE_COLOR = ['r', 'nir', 'g']
-
 
 def plot_station_timeseries(df, station_name, save_dir, variable='temperature', filter=lambda x: (x != 0) & (x > -10)):
     import pathlib
