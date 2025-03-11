@@ -13,3 +13,5 @@ outputs/figures/**/*.png
 settings.json
 .DS_Store
 .python-version
+
+!data/.gitkeep
